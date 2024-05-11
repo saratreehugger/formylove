@@ -1,0 +1,62 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+/* Mobilni Uređaji */
+
+@media only screen and (max-width : 850px) {
+    
+   
+    .link {
+       
+        padding: 10px 20px;
+    
+    }
+    a {
+        font-size: 5px;
+
+    }
+    
+    
+    }
+    
+
+    
+    .link {
+        background-color: rgb(174, 4, 4);
+        padding: 20px 50px;
+        border-radius: 100px;
+       
+    
+    }
+    .link:hover {
+        background-color: whitesmoke;
+        color: rgb(174, 4, 4);
+        border: 1px solid rgb(174, 4, 4);
+        
+    }
+    
+    a {
+        text-decoration:none;
+        color: whitesmoke;
+       font-size: 25px;
+       
+    }
+    body, html {
+        background-image: url(materials/360_F_385632315_dHKQjygUw0pe90U3N6SyDEmd77QGthXM.jpg);
+        height: 100%;
+        margin: 0;
+        align-items:center;
+        justify-content: center;
+        display:flex;
+    }
+    .link-container {
+        text-align: center;
+     
+    
+    }
+    
